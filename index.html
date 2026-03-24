@@ -10,7 +10,7 @@
     <meta property="og:image" content="image/Write.png">
     <meta property="og:type" content="website">
     
-    <title>永恆思念：諶寶連 夫人</title>
+    <title>永恆思念 陳麗華 夫人</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;600;900&display=swap" rel="stylesheet">
     
@@ -377,15 +377,17 @@
 
 function addCal() { 
     const title = "陳麗華夫人追思奠禮";
-    // 台灣 07:00 = UTC 前一天 23:00 (20260407T230000Z)
-    // 台灣 09:30 = UTC 當天 01:30 (20260408T013000Z)
-    const dates = "20260416T010000Z/20260416T016000Z"; 
+    
+    // 台灣 08:00 (UTC+8) = UTC 00:00 (20260416T000000Z)
+    // 台灣 11:00 (UTC+8) = UTC 03:00 (20260416T030000Z)
+    const dates = "20260416T000000Z/20260416T030000Z"; 
     
     const details = "地點：基隆殯儀館 崇仁廳\n地址：200基隆市仁愛區南榮路509巷2號";
     const location = "200基隆市仁愛區南榮路509巷2號";
     
     window.open(`https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&dates=${dates}&details=${encodeURIComponent(details)}&location=${encodeURIComponent(location)}`); 
 }
+
     </script>
 </body>
 </html>
